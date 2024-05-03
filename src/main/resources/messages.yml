@@ -1,0 +1,18 @@
+prefix: "&f[&eSafeCampfires&f]&7"
+
+effect: "You have received &c<effect> &a<level_roman> &7for &a<duration>&7 seconds!"
+no_effect: "Unfortunately, you did not receive any potion effect!"
+
+still_cooldown: "You need to wait &c<cooldown>&7 seconds before you can use campfires again!"
+below_y: "You can not use campfires when below Y level &c<y_level>&7!"
+
+# Placeholders:
+# <effect> : effect name
+# <level> : level
+# <level_roman> : level but in romanian
+# <duration> : duration in seconds
+nothing_hologram_text:
+  - "&fNo Effect Granted"
+hologram_text:
+  - "&fEffect Granted:"
+  - "&a<duration>&fs of &c<effect> &a<level_roman>"

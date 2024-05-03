@@ -1,0 +1,30 @@
+campfires:
+  cooldown: "20->30"
+  radius: 5
+  disable_below_y_level: 40
+  extinguish_on_use: true
+  usable_in:
+    - world
+  # Effect syntax, duration is in ticks (20 ticks is a second):
+  # {potion_type}:{amplifier}:{min_duration}->{max_duration}:{weight}
+  # Or
+  # nothing:<weight>
+  effects:
+    - "regeneration:1:60->80:100"
+    - "strength:1:80->120:50"
+    - "regeneration:2:60->80:20"
+  # UPCOMING FEATURE: COOK EFFECT
+  # cook_effects:
+  #   - "nothing:100"
+  #   - "regeneration:1:20->20:100"
+
+soul_campfires:
+  cooldown: "150->150"
+  radius: 3.5
+  disable_below_y_level: -100
+  extinguish_on_use: false
+  usable_in:
+    - world_nether
+  effects:
+    - "fire_resistance:1:120->160:100"
+    - "instant_health:1:20:100"

@@ -1,0 +1,7 @@
+name: SafeCampfires
+version: 1.0.0
+main: me.rakkoon69.safecampfires.SafeCampfiresPlugin
+api-version: 1.16
+depend: [ DecentHolograms ]
+authors: [ rakkoon69 ]
+description: "Make vanilla campfires more useful: Gain potion effects when right-clicked, and BBQ meat cooked on them provides beneficial potions."
